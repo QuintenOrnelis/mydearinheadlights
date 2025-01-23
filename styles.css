@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 1.4rem;
+    min-height: 150vh; /* Ensures the page height is longer than the viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+header {
+    margin-top: 2rem; /* Adjust as needed */
+    text-align: center;
+}
+
+.content {
+    margin-top: 38rem; /* Use positive values to space it correctly */
+    max-width: 600px;
+    text-align: center;
+    font-family: 'Adobe Arabic', serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
